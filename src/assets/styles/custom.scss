@@ -1,0 +1,41 @@
+@import "./variables";
+// this is used to map colors. change accordingly.
+
+$theme-colors: (
+	primary: $primary,
+	secondary: $secondary,
+	success: $success,
+	info: $info,
+	warning: $warning,
+	danger: $danger,
+	light: $light,
+	dark: $dark,
+	primary-soft: $primary-soft,
+	grey-1: $grey-1,
+	grey-2: $grey-2,
+	grey-3: $grey-3,
+);
+
+$border-radius: 12px;
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-family: "Cairo", sans-serif;
+}
+
+div,
+p,
+a,
+small,
+span,
+ul,
+li {
+	font-family: "Open Sans", sans-serif;
+}
+
+// Import Bootstrap and its default variables
+@import "~bootstrap/scss/bootstrap.scss";

@@ -1,0 +1,16 @@
+// Override default variables before the import
+// you can open the bootstrap.scss module and check any available variables.
+$primary: rgba(108, 93, 211, 1);
+$secondary: rgba(255, 117, 76, 1);
+$success: #3e8d63;
+$info: #7854e4;
+$warning: #b8c924;
+$danger: #d62518;
+$light: #f8f9fa;
+$dark: rgba(52, 58, 64, 1);
+
+//custom color to be mapped
+$primary-soft: rgba(240, 238, 255, 1);
+$grey-1: rgba(170, 170, 170, 1);
+$grey-2: rgba(225, 225, 225, 1);
+$grey-3: rgba(240, 240, 240, 1);
